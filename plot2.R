@@ -15,4 +15,3 @@ twodaysFeb[1441:2880,"Time"] <- format(twodaysFeb[1441:2880,"Time"],"2007-02-02 
 
 #reconstructing plot
 plot(twodaysFeb$Time,as.numeric(as.character(twodaysFeb$Global_active_power)),type="l",xlab="",ylab="Global Active Power (kilowatts)") 
-title(main="Global Active Power Vs Time")
